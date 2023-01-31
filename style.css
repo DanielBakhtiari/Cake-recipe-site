@@ -1,0 +1,42 @@
+.pic {
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.title {
+    background-color: chocolate;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+#title2 {
+    background-color: chocolate;
+    color: black;
+    text-align: center;
+    font-size: 32px; 
+}
+
+.list {
+    font-size: 22px;
+}
+
+.ing {
+    background-color: purple;
+    color: black;
+    font-size: 32px; 
+}
+
+.back {
+    color: black;
+    font-size: 40px; 
+}
+
+#bot {
+    text-align: center;
+    font-size: 12px;
+}
