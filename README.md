@@ -1,3 +1,3 @@
 # Cakerecipe
 
-This is an HTML site with baking recipes
+This is an website with baking recipes created by using HTML and CSS
