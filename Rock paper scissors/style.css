@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    justify-content: center;
+}
+li {
+    padding: 1cm;
+}
+button {
+    height: 150px;
+    width: 150px;
+}
+
+
+.top {
+    border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+    );
+    animation: animation 5s infinite;
+}
+.mid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px
+}
+
+#computerchoice {
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+#border {
+    border: solid black 5px;
+    width: 20cm;
+
+}
+@keyframes animation{
+    25% {background: grey;}
+    25% {background: rgb(106, 101, 101);}
+    25% {background: rgb(120, 103, 103);}
+    25% {background: rgb(167, 139, 139);}
+}
