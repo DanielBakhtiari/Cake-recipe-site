@@ -3,6 +3,7 @@ ul {
     display: flex;
     flex-direction: row;
     border: solid black;
+    background-color: rgb(253, 253, 253);
     justify-content: center;
 }
 li {
@@ -15,20 +16,19 @@ button {
 
 
 .top {
-    border: solid red;
+    border: solid black;
+    background-color: beige;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(
-    );
-    animation: animation 5s infinite;
 }
 .mid {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    border: solid black 1px
+    border: solid black 1px;
+    animation: animation 20s infinite;
 }
 
 #computerchoice {
@@ -42,8 +42,9 @@ button {
 
 }
 @keyframes animation{
-    25% {background: grey;}
-    25% {background: rgb(106, 101, 101);}
-    25% {background: rgb(120, 103, 103);}
-    25% {background: rgb(167, 139, 139);}
+    0% {background-color: blue;}
+    25% {background-color: rgb(159, 46, 46);}
+    50% {background-color: red;}
+    75% {background-color: blueviolet;}
+    100% {background-color: blue;}
 }

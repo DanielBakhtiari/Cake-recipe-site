@@ -14,7 +14,7 @@ function getcomputerchoice() {
 }
     
 function playround(playerchoice,computerchoice) {
-    winner.textContent = ""
+    winner.textContent = "Computer choice:"
     comp.textContent = computerchoice;
     if (playerchoice == "rock" && computerchoice == "paper") {
         compscore += 1;
