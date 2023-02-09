@@ -1,3 +1,11 @@
+.page {
+    flex: 1 0 auto;
+    min-width: max-content;
+    flex-direction: column;
+    display: flex;
+    
+
+}
 ul {
     list-style-type: none;
     display: flex;
